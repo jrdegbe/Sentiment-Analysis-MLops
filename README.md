@@ -5,9 +5,6 @@
 
 This project promulgates an **automated end-to-end ML pipeline** that trains a **bi-directional LSTM** network for sentiment analysis task, **tracks** experiments, **pushes** trained models to **model registry**, benchmark them by means of **model testing** and **evaluation**, pushes the best model into production followed by **dockerizing** the production model artifacts into a deployable image and **deploys** the same into cloud instance via **CI/CD**. 
 
-## Author
-
-- [@Jithin Sasikumar](https://www.github.com/Jithsaavvy)
 
 ## Languages and Tools
 
@@ -280,21 +277,3 @@ sagemaker._deploy(
 
 **Note:** <br>
 *Every AWS resources created for this project will be deleted after the pipeline is executed successfully. This is done on purpose, to restrict and limit any incurring additional cost!!*
-
-## Feedback
-
-If you have any feedback, please reach out to me at jithsasikumar@gmail.com
-
-## Bug / Issues
-
-If you come across any bugs (or) issues related to code, model, implementation, results, pipeline etc, please feel free to open a [new issue here](https://github.com/Jithsaavvy/Sentiment-analysis-from-MLOps-paradigm/issues/new) by describing your search query and expected result.
-
-## References
-
-[Paper - Beyond Accuracy: Behavioral Testing of NLP models with CheckList](https://homes.cs.washington.edu/~marcotcr/acl20_checklist.pdf)
-
-[https://github.com/marcotcr/checklist](https://github.com/marcotcr/checklist)
-
-[AWS Documentations](https://docs.aws.amazon.com/)
-
-[Airflow Docs](https://airflow.apache.org/docs/)
